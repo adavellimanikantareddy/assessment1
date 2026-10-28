@@ -1,0 +1,27 @@
+# Dependency directories
+node_modules/
+*/node_modules/
+
+# Build artifacts
+dist/
+build/
+*/dist/
+
+# Environment files
+.env
+.env.local
+server/.env
+
+# SQLite databases & logs
+*.db
+*.db-journal
+*.log
+server/prisma/*.db
+server/prisma/*.db-journal
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
